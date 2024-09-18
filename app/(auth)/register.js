@@ -42,7 +42,9 @@ export default function Register() {
     <SafeAreaView className="flex-1">
       <ScrollView className="flex-1">
         <View className="flex-1 items-center justify-center px-4 py-8">
-          <Text className="text-3xl font-bold mb-8 ">Créer un compte</Text>
+          <Text className="text-3xl font-bold mb-8 text-red-500 ">
+            Créer un compte
+          </Text>
           <View className="w-full space-y-4 mb-6">
             <Input
               autoCapitalize="words"
@@ -73,7 +75,7 @@ export default function Register() {
           </View>
           <View className="w-full">
             <Button
-              title="Se connecter"
+              title="S'inscrire"
               disabled={loading}
               loading={loading}
               loadingText="Inscription..."
@@ -84,8 +86,8 @@ export default function Register() {
           <View className="w-full mt-4">
             <Text className="text-center">
               Deja un compte ?{" "}
-              <Link href={"login"} className="text-blue-500">
-                Se connecter
+              <Link href={"login"} className="text-red-500">
+                Connecter
               </Link>
             </Text>
           </View>

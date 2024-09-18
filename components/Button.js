@@ -20,8 +20,8 @@ const Button = ({
   const bgColor = disabled
     ? "bg-gray-400"
     : Platform.OS === "ios"
-    ? "bg-blue-500"
-    : "bg-blue-700";
+    ? "bg-red-500"
+    : "bg-red-700";
   const shadowStyles = disabled
     ? "shadow-none"
     : Platform.OS === "android"

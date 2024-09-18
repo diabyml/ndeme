@@ -13,7 +13,7 @@ const Input = ({ placeholder, value, onChangeText, style, ...rest }) => {
     <StyledInput
       className={`
         px-4 py-2 rounded-lg border ${borderColor} 
-        focus:border-blue-500 focus:ring-2 focus:ring-blue-300 
+        focus:border-red-500 focus:ring-3 focus:ring-red-300 
         ${shadowStyle}
         ${Platform.OS === "ios" ? "text-lg" : "text-base"} 
       `}
